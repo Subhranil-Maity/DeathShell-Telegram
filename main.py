@@ -75,5 +75,4 @@ class DeathShell:
 
 
 if __name__ == "__main__":
-    from env import API_KEY
-    bot = DeathShell(API_KEY)
+    bot = DeathShell("Your Bot Key")
